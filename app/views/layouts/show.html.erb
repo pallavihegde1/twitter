@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Tweets</title>
+</head>
+<body>
+ <%tweet=Tweet.first%>
+ <h1> <%=tweet.tweet%></h1>
+ <p> Posted by - <%=tweet.user.name%> </p>
+</body>
+</html>
